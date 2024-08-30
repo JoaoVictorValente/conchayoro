@@ -5,7 +5,7 @@ branch-defaults:
 environment-defaults:
   frontend:
     branch: main
-    repository: your-repository-url  # Substitua pelo repositório correto
+    repository: null  # Substitua pelo repositório correto
 
 global:
   application_name: conchayoro
