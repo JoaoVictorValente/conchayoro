@@ -1,0 +1,21 @@
+branch-defaults:
+  default:
+    environment: frontend
+
+environment-defaults:
+  frontend:
+    branch: main
+    repository: your-repository-url  # Substitua pelo repositório correto
+
+global:
+  application_name: conchayoro
+  default_ec2_keyname: vockey
+  default_platform: Docker
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: LabInstanceProfile
+  platform_name: null  # Ajuste se estiver utilizando uma plataforma personalizada
+  platform_version: null  # Ajuste conforme a versão da plataforma se necessário
+  profile: your-aws-profile  # Substitua pelo seu perfil AWS, se necessário
+  sc: null  # Este campo pode ser removido se não estiver sendo utilizado
+  workspace_type: Application
